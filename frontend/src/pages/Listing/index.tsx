@@ -1,3 +1,9 @@
+import Pagination from "components/Pagination";
+
 export function Listing() {
-  return (<h1>Olá</h1>);
+  return (
+    <>
+      <Pagination />
+    </>
+  );
 }
